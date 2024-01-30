@@ -1,0 +1,2 @@
+dc-prod-clean  --load-dataset True --ifo V1 --save-dataset True --fs 4096 --out-dir injection_Dir_98_108_Hz  --out-channel V1:Hrec_hoft_raw_20000Hz_DC --chanslist /home/weizmann.kiendrebeogo/DeepClean/DeepClean_CIT/98-110_Hz/98-110_best_one.ini --clean-kernel 8 --clean-stride 4 --pad-mode median --window hanning --device cuda --train-dir /home/weizmann.kiendrebeogo/DeepClean/DeepClean_CIT/98-110_Hz/4096/Hrec-HOFT-1265127585-100000   --clean-t0 1265127585 --clean-duration 4096 --out-file Hrec-HOFT-1265127585-4096.gwf
+
