@@ -1,0 +1,11 @@
+universe = vanilla
+executable      = run_dynesty_dc.py 
+getenv = True
+log    = logs/dc/log.$(Process).log
+output = logs/dc/log.$(Process).out
+error  = logs/dc/log.$(Process).err
+accounting_group = ligo.prod.o3.detchar.subtraction.deepclean 
+Arguments = $(Process)
+request_memory = 32000M
+request_disk = 5000M
+queue 128
