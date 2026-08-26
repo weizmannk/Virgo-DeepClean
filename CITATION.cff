@@ -1,0 +1,96 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the article below."
+title: "Virgo-DeepClean"
+type: software
+authors:
+  - family-names: Kiendrebeogo
+    given-names: "R. Weizmann"
+    email: weizmann.kiendrebeogo@oca.eu
+url: "https://github.com/weizmannk/Virgo-DeepClean"
+license: AGPL-3.0
+preferred-citation:
+  type: article
+  title: "Application of nonlinear noise regression in the Virgo detector"
+  authors:
+    - family-names: Kiendrebeogo
+      given-names: "R. Weizmann"
+    - family-names: Saleem
+      given-names: Muhammed
+    - family-names: Bizouard
+      given-names: "Marie Anne"
+    - family-names: Chen
+      given-names: "Andy H. Y."
+    - family-names: Christensen
+      given-names: Nelson
+    - family-names: Chou
+      given-names: Chia-Jui
+    - family-names: Coughlin
+      given-names: "Michael W."
+    - family-names: Janssens
+      given-names: Kamiel
+    - family-names: Kam
+      given-names: "S. Zacharie"
+    - family-names: Koulidiati
+      given-names: Jean
+    - family-names: Yeh
+      given-names: Shu-Wei
+  journal: "Physical Review D"
+  volume: 112
+  issue: 8
+  start: "083053"
+  year: 2025
+  month: 10
+  doi: "10.1103/hwnc-r7yy"
+  url: "https://link.aps.org/doi/10.1103/hwnc-r7yy"
+references:
+  - type: article
+    title: "Demonstration of machine learning-assisted low-latency noise regression in gravitational wave detectors"
+    authors:
+      - family-names: Saleem
+        given-names: Muhammed
+      - family-names: Gunny
+        given-names: Alec
+      - family-names: Chou
+        given-names: Chia-Jui
+      - family-names: Yang
+        given-names: Li-Cheng
+      - family-names: Yeh
+        given-names: Shu-Wei
+      - family-names: Chen
+        given-names: "Andy H Y"
+      - family-names: Magee
+        given-names: Ryan
+      - family-names: Benoit
+        given-names: William
+      - family-names: Nguyen
+        given-names: Tri
+      - family-names: Fan
+        given-names: Pinchen
+      - family-names: Chatterjee
+        given-names: Deep
+      - family-names: Marx
+        given-names: Ethan
+      - family-names: Moreno
+        given-names: Eric
+      - family-names: Omer
+        given-names: Rafia
+      - family-names: Raikman
+        given-names: Ryan
+      - family-names: Rankin
+        given-names: Dylan
+      - family-names: Sharma
+        given-names: Ritwik
+      - family-names: Coughlin
+        given-names: Michael
+      - family-names: Harris
+        given-names: Philip
+      - family-names: Katsavounidis
+        given-names: Erik
+    journal: "Classical and Quantum Gravity"
+    volume: 41
+    issue: 19
+    start: "195024"
+    year: 2024
+    month: 9
+    doi: "10.1088/1361-6382/ad708a"
+    url: "https://doi.org/10.1088/1361-6382/ad708a"

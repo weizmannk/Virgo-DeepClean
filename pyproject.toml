@@ -1,0 +1,33 @@
+[project]
+name = "virgo-deepclean"
+version = "0.1.0"
+description = "Virgo DeepClean noise-regression analysis: ASD, BNS range, matched-filter SNR, injections/PE, and KS-test validation studies."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Ramodgwendé Weizmann Kiendrébéogo", email = "weizmann.kiendrebeogo@oca.eu" },
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "h5py",
+    "tqdm",
+    "astropy",
+    "gwpy",
+    "lalsuite",
+    "pycbc",
+    "bilby",
+    "bilby_pipe",
+]
+
+[project.optional-dependencies]
+dev = ["pre-commit", "black"]
+
+[tool.uv]
+# `deepclean_prod` is not on PyPI; install it separately with
+# scripts/install_deepclean_prod.sh (see README.md).
+package = false

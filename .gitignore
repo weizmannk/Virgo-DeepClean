@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+conda-meta/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Vendored / external pipeline (fetched by scripts/install_deepclean_prod.sh) ---
+deepclean-prod/
+deepclean-prod.zip
+config/virgo-deepclean-prod/*
+!config/virgo-deepclean-prod/.gitkeep
+
+# --- Large / regenerable data products (uncomment if you don't want these versioned) ---
+# *.gwf
+# *.hdf5
+# *.h5
+
+# --- Logs & condor submission artifacts ---
+*.log
+*.err
+*.out
+*.dag.*
+*.sub.*
